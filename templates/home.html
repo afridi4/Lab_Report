@@ -1,0 +1,65 @@
+{% extends "layout.html" %}
+{% load static %}
+{% block body %}
+<div class="container mt-5">
+    <h3 class="text-center">Shahed Afridi</h3>
+    <p class="text-center">I am Afridi.I am a person who love football most.My home town is Patuakhali.
+      In my free time i love to play vedio games,listening music,wathing movies.I want to be a honest person.
+    </p>
+    <img src="{% static 'images/rav.jpg' %}" class="rounded mx-auto d-block w-25 p-3" alt="My_photo">
+</div>
+
+
+
+<div class="container mt-5">
+<div class="card">
+  <div class="card-header">
+    <h3>Skills</h3>
+  </div> 
+  <div class="card-body">
+    <div class="row">
+      <div class="col">
+        <h5>Language</h5>
+        <ul>
+          <li>C</li>
+          <li>Java</li>
+          <li>Python</li>
+        </ul>
+      </div>
+      
+      
+      <div class="col">
+        <h5>Frontend</h5>       
+        <ul>
+          <li>Html</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+                     
+        </ul>
+      </div>
+        <div class="col">
+          <h5>Backend</h5>
+          <ul>
+            <li>Django</li>
+                    
+          </ul>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h5>Database</h5>
+        <ul>
+          <li>SQLite</li>
+          <li>MS SQL</li>
+                     
+        </ul>
+      </div>
+      
+    </div>                   
+  </div>       
+</div>      
+
+
+<!-- Section-3 Skills -->
+{% endblock %}
+
