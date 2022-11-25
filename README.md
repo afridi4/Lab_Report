@@ -1,4 +1,4 @@
-# Lab_6_Django_Portfolio
+# Lab_Report
 ## activate virtual environment
 ```
 conda activate base
@@ -16,5 +16,5 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
-## Admin Username: shakil
-## Admin Password: 1234@1234
+## Admin Username: afridi
+## Admin Password: 1234
